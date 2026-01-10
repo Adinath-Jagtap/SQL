@@ -870,3 +870,19 @@ LIMIT 10;
 - Range: SELECT * FROM table WHERE column BETWEEN x AND y
 - Multiple values: SELECT * FROM table WHERE column IN (val1, val2)
 */
+
+-- =============================================================================
+-- SQL PRACTICE QUESTIONS - BASICS (Day 1)
+-- =============================================================================
+/*
+1. Select all columns from a table
+2. Select specific columns (name, age) from a table
+3. Filter rows where age is greater than 25 using WHERE
+4. Get records where city is 'Mumbai' OR 'Delhi'
+5. Sort results by salary in descending order using ORDER BY
+6. Retrieve the top 10 records using LIMIT
+7. Filter records using AND condition (age > 20 AND salary < 50000)
+8. Get records where name starts with 'A' using LIKE
+9. Count the total number of rows in a table
+10. Get distinct values from a specific column
+*/
