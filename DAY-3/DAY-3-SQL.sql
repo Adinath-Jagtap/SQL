@@ -931,3 +931,19 @@ TIPS:
 - Draw diagrams for recursive CTEs
 - Read execution plans to understand performance
 */
+
+-- =============================================================================
+-- SQL PRACTICE QUESTIONS - SUBQUERIES & CTES (Day 3)
+-- =============================================================================
+/*
+1. Subquery in WHERE clause (e.g., filter rows using WHERE col IN (SELECT ...))
+2. Subquery in SELECT clause (e.g., SELECT col, (SELECT MAX(...) FROM ...) AS max_val)
+3. Subquery in FROM clause (use a derived table: FROM (SELECT ...) AS sub)
+4. Find employees with salary > average salary using a subquery
+5. Use IN with a subquery to match multiple values (e.g., WHERE dept_id IN (SELECT id FROM ...))
+6. Correlated subquery that references the outer query (e.g., WHERE salary > (SELECT AVG(s2.salary) FROM emp s2 WHERE s2.dept = e.dept))
+7. Simple CTE using WITH to break complex queries into readable parts
+8. Multiple CTEs in one query (define several WITH blocks separated by commas)
+9. Recursive CTE (basic example: generate a sequence or traverse a hierarchy)
+10. Use a CTE together with JOINs to join intermediate results with other tables
+*/
