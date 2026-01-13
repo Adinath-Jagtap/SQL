@@ -964,3 +964,12 @@ FRAME SPECIFICATION:
    LAG(col, 1) looks back 1 row (not forward!)
    LEAD(col, 1) looks forward 1 row (not back!)
 */
+
+
+-- PRACTICE TIPS:
+
+-- Start with small datasets to see results clearly
+-- Draw out the table to understand partitions visually
+-- Test each OVER clause component separately
+-- Compare window functions with GROUP BY to understand difference
+-- Use CTEs to make complex queries readable
