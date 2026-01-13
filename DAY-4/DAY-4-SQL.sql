@@ -973,3 +973,19 @@ FRAME SPECIFICATION:
 -- Test each OVER clause component separately
 -- Compare window functions with GROUP BY to understand difference
 -- Use CTEs to make complex queries readable
+
+-- =============================================================================
+-- SQL PRACTICE QUESTIONS - WINDOW FUNCTIONS (Day 4)
+-- =============================================================================
+/*
+1. Use ROW_NUMBER() OVER (ORDER BY ...) to assign sequential row numbers
+2. Use RANK() OVER (PARTITION BY department ORDER BY salary DESC) to rank employees by salary within each department
+3. Use DENSE_RANK() OVER (...) to rank without gaps when there are ties
+4. Find the top 3 salaries per department using RANK() or ROW_NUMBER() (with a subquery/CTE)
+5. Calculate a running total using SUM(value) OVER (ORDER BY date ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW)
+6. Compute a moving average using AVG(value) OVER (ORDER BY date ROWS BETWEEN N PRECEDING AND CURRENT ROW)
+7. Use LEAD(column, 1) OVER (ORDER BY ...) to access the next row's value
+8. Use LAG(column, 1) OVER (ORDER BY ...) to access the previous row's value
+9. Use PARTITION BY with window functions to operate per group (e.g., PARTITION BY department)
+10. Combine RANK/ROW_NUMBER with filtering (via CTE or subquery) to get top N rows per group
+*/
