@@ -1146,7 +1146,7 @@ NAMING CONVENTIONS:
 */
 
 -- =============================================================================
--- SQL PRACTICE QUESTIONS - DATABASE BASICS & CONSTRAINTS
+-- SQL PRACTICE QUESTIONS - DATABASE BASICS & CONSTRAINTS (DAY 5)
 -- =============================================================================
 /*
 1. Create a table with a PRIMARY KEY constraint
