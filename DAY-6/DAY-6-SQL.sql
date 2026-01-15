@@ -577,3 +577,19 @@ DERIVED TABLE JOIN:
 
 6. INTERSECT/EXCEPT: If not supported, INNER JOIN often faster than IN subquery
 */
+
+-- =============================================================================
+-- SQL PRACTICE QUESTIONS - ADVANCED JOINS & SET OPERATIONS (Day 6)
+-- =============================================================================
+/*
+1. Use SELF JOIN to compare rows within the same table (e.g., employee-manager relationship)
+2. Use CROSS JOIN to generate a Cartesian product of two tables
+3. Perform a FULL OUTER JOIN to return all matching and non-matching rows from both tables
+4. Use UNION to combine results from two SELECT queries (remove duplicates)
+5. Use UNION ALL to combine results including duplicates
+6. Use INTERSECT to find common records between two queries
+7. Use EXCEPT (or MINUS in some DBMS) to find records present in one query but not the other
+8. Write a complex multi-table JOIN with multiple conditions
+9. Join a table with a subquery (derived table)
+10. Combine JOIN with UNION in a single SQL workflow
+*/
