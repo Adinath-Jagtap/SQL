@@ -12,6 +12,7 @@
    - Remove duplicate records from a table while retaining a single instance (based on chosen key/columns).
 */
 
+
 -- Asumptions:
 -- employees(emp_id, name, salary)
 -- users(id, email)
