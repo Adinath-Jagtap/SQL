@@ -21,10 +21,9 @@ Welcome to my SQL learning journey! This repository documents my daily SQL pract
 ### Why This Exists
 
 - **Structured Learning**: Questions organized from beginner to advanced levels
-- **Daily Consistency**: One problem per day to build lasting skills
-- **Real Solutions**: Actual working queries with explanations
-- **Progressive Difficulty**: Gradual complexity increase to prevent overwhelm
-- **Interview Ready**: Common patterns and techniques asked in technical interviews
+- **Daily Consistency**: Problems per day to build lasting skills
+- **Real Solutions**: Actual working queries
+- **Progressive Difficulty**: Gradual complexity increase
 
 ---
 
