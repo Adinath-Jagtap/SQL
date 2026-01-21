@@ -11,7 +11,6 @@
 *One question a day keeps the interview anxiety away* ✨
 
 </div>
-
 ---
 
 ## 🎯 About This Repository
